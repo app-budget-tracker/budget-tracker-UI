@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { RootState } from "@/store";
 import LoginRouter from "./LoginRouter";
-import AccountCreated from "@/pages/onboarding/AccountCreated";
+import AccountCreated from "@/pages/login/AccountCreated";
 const AppRouter = () => {
   const isLoggedIn = useSelector(
     (state: RootState) => state.account.isLoggedIn
